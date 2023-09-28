@@ -46,6 +46,32 @@ li button {
   margin-left: 10px;
 }
 
+.filter-buttons {
+  padding-bottom: 20px;
+}
+
+.filters {
+  outline: none;
+  background: none;
+  padding: 8px;
+  box-sizing: revert-layer;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+select {
+  background-color: #333;
+  color: var(--select-text-color);
+  border: none;
+  padding: 8px;
+}
+
+/* Style for selected option */
+option:checked {
+  background-color: white;
+  color: var(--select-text-color);
+}
+
 .light-theme {
   --background-color: #ffffff;
   --text-color: #000000;
@@ -60,4 +86,5 @@ li button {
   --input-background: #333333;
   --button-background: #007bff;
   --button-text-color: #ffffff;
+  --select-text-color: #ffffff;
 }
